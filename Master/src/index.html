@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>FaconTech - AI Technology & IT Solutions HTML Template</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.png"
+    />
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+
+  <body class="dark">
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> href improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader Start-->
+
+    <div class="InitLoader">
+      <div class="fingerprint-spinner">
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+        <div class="spinner-ring"></div>
+      </div>
+    </div>
+
+    <!-- preloader end
+
+    <!-- back href top start -->
+    <!-- <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div> -->
+    <!-- back href top end -->
+
+    <!-- header-area-start -->
+
+    <header>
+      <div class="container mx-auto pt-[30px]">
+        <div
+          class="flex justify-between rounded-[10px] bg-white py-[30px] dark:bg-card"
+        >
+          <div class="logo flex items-center px-[30px]">
+            <a href="/">
+              <img src="assets/images/logo.svg" alt="" />
+            </a>
+          </div>
+          <menu class="hidden items-center md:flex">
+            <ul class="flex gap-4">
+              <li>
+                <a href="/" class="font-semibold text-text"> Home </a>
+              </li>
+              <li>
+                <a class="font-semibold text-text" href="/about"> About Us </a>
+              </li>
+              <li class="w-[100px]">
+                <a class="font-semibold text-text" href="/contact">
+                  <!-- <ReactTyped
+                    strings={[" Hire Me!", "Need Help?", "Contact Now"]}
+                    typeSpeed={200}
+                    backSpeed={100}
+                    backDelay={1}
+                    loop
+                    smartBackspace
+                  /> -->
+                </a>
+              </li>
+            </ul>
+          </menu>
+          <div>
+            <div class="flex items-center gap-4 px-[30px]">
+              <button class="hidden items-center gap-3 md:flex">
+                <p>
+                  <span class="text-btn dark:text-theme">Dark</span>
+                  <span class="text-btn dark:text-white"> / </span>
+                  <span class="text-theme dark:text-white">Light</span>
+                </p>
+                <div>
+                  <img src="assets/images/icon/sun.svg" alt="" />
+                </div>
+              </button>
+              <button
+                class="sidebar-open rounded-full border border-[#919295] p-[10px] text-[25px]"
+              >
+                <i
+                  class="fa-solid fa-bars-staggered text-text dark:text-text block text-[20px]"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- header-area-end -->
+
+    <!-- sidebar area start -->
+    <section
+      class="sidebar fixed leftFull top-0 z-[999] h-screen w-full bg-btn/60 transition-all duration-500"
+    >
+      <div
+        class="ml-auto h-screen w-[300px] bg-white px-[30px] pt-[60px] dark:bg-card"
+      >
+        <div class="relative flex justify-center">
+          <button
+            class="sidebar-close group absolute left-[-70px] rounded-lg bg-white px-[15px] py-[10px] text-[26px] dark:bg-card"
+          >
+            <i
+              class="fa-solid block fa-xmark text-btn transition-all duration-500 group-hover:rotate-90 dark:text-white dark:group-hover:text-theme"
+            ></i>
+          </button>
+          <div>
+            <img src="assets/images/logo.svg" alt="" />
+          </div>
+        </div>
+        <div class="my-[30px] border-t border-[#ddd] dark:border-btn"></div>
+        <nav class="mt-[30px]">
+          <ul>
+            <li class="text-[18px] font-semibold">
+              <a
+                class="inline-block py-[8px] text-theme dark:text-theme"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li class="text-[18px] font-semibold">
+              <a
+                class="inline-block py-[8px] text-btn transition-all duration-300 dark:text-white dark:hover:text-theme"
+                href="/about"
+              >
+                About Us
+              </a>
+            </li>
+            <li class="text-[18px] font-semibold">
+              <a
+                class="inline-block py-[8px] text-theme dark:text-theme"
+                href="/projects"
+              >
+                Projects
+              </a>
+            </li>
+            <li class="text-[18px] font-semibold">
+              <a
+                class="inline-block py-[8px] text-theme dark:text-theme"
+                href="/blog"
+              >
+                Blog
+              </a>
+            </li>
+            <li class="text-[18px] font-semibold">
+              <a
+                class="inline-block py-[8px] text-theme dark:text-theme"
+                href="/service"
+              >
+                Services
+              </a>
+            </li>
+            <li class="text-[18px] font-semibold">
+              <a
+                class="inline-block py-[8px] text-theme dark:text-theme"
+                href="/testimonial"
+              >
+                Testimonial
+              </a>
+            </li>
+            <li class="text-[18px] font-semibold">
+              <a
+                class="inline-block py-[8px] text-theme dark:text-theme"
+                href="/contact"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="my-[30px] border-t border-[#ddd] dark:border-btn"></div>
+        <button class="inline-block cursor-pointer">
+          <div class="flex items-center gap-4 md:hidden">
+            <div>
+              <p>
+                <span class="text-btn dark:text-theme">Dark</span>
+                <span class="text-btn dark:text-white"> / </span>
+                <span class="text-theme dark:text-white">Light</span>
+              </p>
+            </div>
+            <div>
+              <img src="assets/images/icon/sun.svg" alt="" />
+            </div>
+          </div>
+        </button>
+        <div class="contact absolute bottom-[30px] mt-[10px]">
+          <div>
+            <p class="text-[20px] font-semibold text-btn dark:text-white">
+              Follow Me:
+            </p>
+
+            <div class="mt-[20px] flex gap-3">
+              <a href="/" class="block">
+                <i class="fa-brands fa-facebook-f socialIcon"></i>
+              </a>
+              <a href="/" class="block">
+                <i class="fa-brands fa-github socialIcon"></i>
+              </a>
+              <a href="/" class="block">
+                <i class="fa-brands fa-linkedin-in socialIcon"></i>
+              </a>
+              <a href="/" class="block">
+                <i class="fa-brands fa-medium socialIcon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sidebar area end -->
+    <div class="body-overlay"></div>
+
+    <main>
+      <section>
+        <div class="container mx-auto">
+          <div class="grid grid-cols-12">
+            <div class="col-span-12 lg:col-span-3">
+              <div class="info-card mt-[60px]">
+                <div
+                  class="rounded-[20px] bg-white px-[45px] py-[40px] dark:bg-card"
+                >
+                  <div class="relative flex justify-center">
+                    <img
+                      src="assets/images/show/ProfileImage.png"
+                      alt=""
+                      class="w-[200px]"
+                    />
+                    <img
+                      src="assets/images/show/underline.svg"
+                      alt=""
+                      class="absolute bottom-0"
+                    />
+                  </div>
+                  <div>
+                    <div class="mt-[25px]">
+                      <div class="text-center">
+                        <h3 class="text-[24px] text-btn dark:text-white">
+                          Hy! I’m
+                          <span class="text-theme"> Alex Jhohan</span>
+                        </h3>
+                        <p class="text-btn dark:text-white">
+                          JavaScript Developer
+                        </p>
+                        <p
+                          class="mt-[25px] text-[14px] text-btn dark:text-white"
+                        >
+                          admin@demo.com
+                        </p>
+                        <p class="mt-1 text-[14px] text-btn dark:text-white">
+                          +88 889-859-66
+                        </p>
+                        <div class="mt-[30px] flex justify-center gap-3">
+                          <a href="/" class="block">
+                            <i class="fa-brands fa-facebook-f socialIcon"></i>
+                          </a>
+                          <a href="/" class="block">
+                            <i class="fa-brands fa-github socialIcon"></i>
+                          </a>
+                          <a href="/" class="block">
+                            <i class="fa-brands fa-linkedin-in socialIcon"></i>
+                          </a>
+                          <a href="/" class="block">
+                            <i class="fa-brands fa-medium socialIcon"></i>
+                          </a>
+                        </div>
+                        <div class="mt-[30px]">
+                          <a
+                            href="/contact"
+                            class="block rounded-full border-2 border-theme bg-theme py-[10px] font-medium text-btn transition-all duration-300 dark:hover:bg-transparent dark:hover:text-theme"
+                          >
+                            Hire Me!
+                          </a>
+                        </div>
+                        <div class="mt-[20px]">
+                          <a
+                            download
+                            href="assets/pdf/Resume-of-Amit-Biswas-MERN.pdf"
+                            class="block rounded-full border-2 border-btn bg-btn py-[10px] font-medium text-white transition-all duration-300 dark:hover:bg-transparent"
+                          >
+                            Download CV
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-12 lg:col-span-9 lg:ml-[30px]">
+              <div class="main__body">
+                <section class="mt-[60px]">
+                  <div class="rounded-xl bg-white p-[30px] dark:bg-card">
+                    <div>
+                      <p class="text-[18px] text-text">
+                        <span class="dark:text-theme">Hi!</span> There I’m
+                      </p>
+                      <h2
+                        class="mt-[20px] text-[50px] leading-[60px] text-btn dark:text-white md:text-[62px] md:leading-[72px]"
+                      >
+                        Professional <span class="text-theme">Front-end</span>
+                        <br />
+                        Web Developer
+                      </h2>
+                      <p class="mt-[15px] text-text">
+                        I am a Professional Front-end Web Developer and have
+                        been working in this field for more than 4 years. We are
+                        highly experts in converting PSD href HTML, PSD href
+                        Bootstrap, Figma href HTML, Sketch href HTML, and Xd
+                        href HTML ,CSS responsive design and pixel-perfect using
+                        bootstrap latest version, jQuery, JavaScript. I always
+                        take care of code with SEO friendly.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- {/* About US */} -->
+
+                  <div class="mt-[30px]">
+                    <div class="grid grid-cols-12 gap-[30px]">
+                      <div class="col-span-12 md:col-span-5">
+                        <div class="rounded-xl bg-white p-[30px] dark:bg-card">
+                          <img
+                            src="assets/images/logo.svg"
+                            alt=""
+                            class="mt-[10px]"
+                          />
+                          <div class="mt-[20px]">
+                            <p class="text-[14px] text-text dark:text-white">
+                              More Specialized
+                            </p>
+                            <a href="/about">
+                              <h3
+                                class="mt-[5px] inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
+                              >
+                                About Us
+                              </h3>
+                            </a>
+                          </div>
+                        </div>
+                        <div>
+                          <div
+                            class="mt-[30px] rounded-xl bg-white p-[30px] dark:bg-card"
+                          >
+                            <div class="flex gap-[20px]">
+                              <button
+                                class="boxShadow rounded-lg p-[20px] dark:bg-btn dark:shadow-none"
+                              >
+                                <img
+                                  src="assets/images/icon/figma.png"
+                                  alt=""
+                                />
+                              </button>
+                              <button
+                                class="boxShadow rounded-lg p-[20px] dark:bg-btn dark:shadow-none"
+                              >
+                                <img
+                                  src="assets/images/icon/react.png"
+                                  alt=""
+                                />
+                              </button>
+                              <button
+                                class="boxShadow rounded-lg p-[20px] dark:bg-btn dark:shadow-none"
+                              >
+                                <img src="assets/images/icon/php.png" alt="" />
+                              </button>
+                            </div>
+
+                            <div class="mt-[30px]">
+                              <p class="text-[14px] text-text dark:text-white">
+                                Specialization
+                              </p>
+                              <a href="/service">
+                                <h3
+                                  class="mt-[5px] inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
+                                >
+                                  Services Offer
+                                </h3>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="mt-[30px] rounded-xl bg-white p-[30px] dark:bg-card"
+                        >
+                          <div
+                            class="grid grid-cols-12"
+                            data-wow-duration="1.5s"
+                            data-wow-delay="0.3s"
+                          >
+                            <div class="col-span-6">
+                              <h2
+                                class="text-[50px] font-semibold text-btn dark:text-theme"
+                              >
+                                <span class="counter">20</span>+
+                              </h2>
+                              <p class="text-text dark:text-white">
+                                Years of <br />
+                                Experience
+                              </p>
+                            </div>
+                            <div class="col-span-6">
+                              <h2
+                                class="text-[50px] font-semibold text-btn dark:text-theme"
+                              >
+                                <span>20</span>
+                              </h2>
+                              <p class="text-text dark:text-white">
+                                Project <br />
+                                Completed
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-span-12 md:col-span-7">
+                        <div class="rounded-xl bg-white p-[30px] dark:bg-card">
+                          <div class="flex justify-center gap-[20px]">
+                            <div class="overflow-hidden rounded-lg">
+                              <div>
+                                <img
+                                  src="assets/images/show/image-1.png"
+                                  alt=""
+                                  class="transition-all duration-300 hover:scale-[110%]"
+                                />
+                              </div>
+                            </div>
+                            <div class="overflow-hidden rounded-lg">
+                              <div>
+                                <img
+                                  src="assets/images/show/image-2.png"
+                                  alt=""
+                                  class="transition-all duration-300 hover:scale-[110%]"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="mt-[30px]">
+                            <p class="text-[14px] text-text dark:text-white">
+                              Showcase View
+                            </p>
+                            <a href="/projects">
+                              <h3
+                                class="mt-[5px] inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
+                              >
+                                Projects
+                              </h3>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="mt-[30px] grid grid-cols-12 gap-[30px]">
+                          <div
+                            class="col-span-6 rounded-xl bg-theme px-[30px] py-[25px]"
+                          >
+                            <p class="text-[14px] text-btn">Visit Our Blog</p>
+                            <a href="/blog">
+                              <h3
+                                class="mt-[5px] inline-block text-[26px] tracking-[6px] text-btn"
+                              >
+                                Blog
+                              </h3>
+                            </a>
+                          </div>
+                          <div
+                            class="hero-pattern col-span-6 rounded-xl bg-white px-[30px] py-[25px] dark:bg-card"
+                          >
+                            <p class="text-[14px] text-text dark:text-white">
+                              Let’s work
+                            </p>
+                            <a href="/contact">
+                              <h3
+                                class="mt-[5px] inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
+                              >
+                                Contact
+                              </h3>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="mt-[30px]">
+                          <div
+                            class="relative flex h-[185px] items-end rounded-xl bg-cover bg-local bg-center bg-no-repeat px-[30px] py-[30px]"
+                            style="
+                              background-image: url('assets/images/show/image-4.png');
+                            "
+                          >
+                            <div>
+                              <p class="text-[14px] text-white">
+                                What Client Says?
+                              </p>
+                              <a href="/testimonial">
+                                <h3
+                                  class="mt-[5px] text-[26px] tracking-[6px] text-white"
+                                >
+                                  Testimonials
+                                </h3>
+                              </a>
+                              <img
+                                class="absolute right-[30px] top-[50px] z-10"
+                                src="assets/images/icon/shape.svg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section one start -->
+    <footer>
+      <div class="container mx-auto mt-[60px] flex justify-center pb-[40px]">
+        <div>
+          <p class="text-center text-text">
+            Copyright <span class="text-theme">pucu</span> ©2023. All rights
+            reserved
+          </p>
+          <div class="mt-[20px] flex justify-center text-center">
+            <img src="assets/images/logo.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section one end -->
+
+    <!-- JS here -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/backtotop.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

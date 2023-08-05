@@ -79,14 +79,14 @@
           class="flex justify-between rounded-[10px] bg-white py-[30px] dark:bg-card"
         >
           <div class="logo flex items-center px-[30px]">
-            <a href="/">
+            <a href="index.html">
               <img src="assets/images/logo.svg" alt="" />
             </a>
           </div>
           <nav class="hidden items-center md:flex">
             <ul class="flex gap-4">
               <li class="navDefault">
-                <a href="/"> Home </a>
+                <a href="index.html"> Home </a>
               </li>
               <li class="navDefault">
                 <a href="about.html"> About Us </a>
@@ -171,7 +171,7 @@
         <nav class="mt-[30px]">
           <ul class="grid gap-[18px]">
             <li class="text-[18px] font-semibold inline-block navDefault">
-              <a href="/"> Home </a>
+              <a href="index.html"> Home </a>
             </li>
             <li class="text-[18px] font-semibold inline-block navDefault">
               <a href="about.html"> About Us </a>
@@ -234,16 +234,16 @@
             </p>
 
             <div class="mt-[20px] flex gap-3">
-              <a href="/" class="block">
+              <a href="#" class="block">
                 <i class="fa-brands fa-facebook-f socialIcon"></i>
               </a>
-              <a href="/" class="block">
+              <a href="#" class="block">
                 <i class="fa-brands fa-github socialIcon"></i>
               </a>
-              <a href="/" class="block">
+              <a href="#" class="block">
                 <i class="fa-brands fa-linkedin-in socialIcon"></i>
               </a>
-              <a href="/" class="block">
+              <a href="#" class="block">
                 <i class="fa-brands fa-medium socialIcon"></i>
               </a>
             </div>
@@ -303,16 +303,16 @@
                         <div
                           class="mt-[30px] flex justify-center gap-3 wow animated fadeIn"
                         >
-                          <a href="/" class="block">
+                          <a href="#" class="block">
                             <i class="fa-brands fa-facebook-f socialIcon"></i>
                           </a>
-                          <a href="/" class="block">
+                          <a href="#" class="block">
                             <i class="fa-brands fa-github socialIcon"></i>
                           </a>
-                          <a href="/" class="block">
+                          <a href="#" class="block">
                             <i class="fa-brands fa-linkedin-in socialIcon"></i>
                           </a>
-                          <a href="/" class="block">
+                          <a href="#" class="block">
                             <i class="fa-brands fa-medium socialIcon"></i>
                           </a>
                         </div>
@@ -361,7 +361,12 @@
                       <div class="mb-[30px] mt-[30px]">
                         <div>
                           <div>
-                            <div>
+                            <form
+                              id="contact-form"
+                              class="contact-form"
+                              action="mail.php"
+                              method="POST"
+                            >
                               <div
                                 class="grid w-full gap-[20px] md:flex wow animated fadeIn"
                               >
@@ -371,26 +376,29 @@
                                     type="text"
                                     placeholder="Enter Your Name"
                                     id="name"
-                                    name="user_name"
-                                    required
+                                    name="name"
+                                    required="required"
                                   />
                                 </div>
                                 <div class="md:w-1/2">
                                   <input
                                     class="block w-full rounded-lg border bg-white px-[15px] py-[10px] text-btn focus:outline-none dark:border-none dark:bg-btn dark:text-white"
-                                    id="email"
-                                    name="user_email"
                                     type="email"
+                                    id="email"
+                                    name="email"
+                                    required="required"
                                     placeholder="Enter Your Email"
-                                    required
                                   />
                                 </div>
                               </div>
                               <div class="mt-[20px] wow animated fadeIn">
                                 <input
                                   class="block w-full rounded-lg border bg-white px-[15px] py-[10px] text-btn focus:outline-none dark:border-none dark:bg-btn dark:text-white"
-                                  type="text"
                                   placeholder="Website Link:"
+                                  type="url"
+                                  id="website"
+                                  name="website"
+                                  required="required"
                                 />
                               </div>
                               <div class="mt-[20px] wow animated fadeIn">
@@ -430,13 +438,16 @@
                               </div>
                               <div class="mb-[30px] wow animated fadeIn">
                                 <button
+                                  type="submit"
                                   class="rounded-full border-2 border-theme bg-theme px-[30px] py-[10px] font-medium text-btn transition-all duration-300 dark:hover:bg-transparent dark:hover:text-theme"
                                 >
                                   Send Massage
                                 </button>
-                                <!-- <p class="mt-3 text-theme">success</p> -->
+                                <p
+                                  class="mt-[15px] text-theme form-Messages"
+                                ></p>
                               </div>
-                            </div>
+                            </form>
                           </div>
                         </div>
                       </div>

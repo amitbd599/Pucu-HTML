@@ -53,6 +53,9 @@ Version      : 1.0.1
   .socialIcon {
     @apply rounded-lg bg-white boxShadow  text-[18px] text-text transition duration-300 hover:text-btn dark:bg-btn dark:shadow-none dark:hover:text-theme flex justify-center items-center w-[40px] h-[40px];
   }
+  .socialRound {
+    @apply boxShadow rounded-lg bg-white flex justify-center items-center w-[40px] h-[40px] text-text transition duration-300 hover:text-btn dark:bg-btn dark:shadow-none dark:hover:text-theme;
+  }
   .progress .break-all {
     background: #2ff093 !important;
   }

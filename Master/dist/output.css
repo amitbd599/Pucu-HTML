@@ -456,7 +456,7 @@ html,
   body {
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
-  background: #252525;
+  background: #ecf0f3;
   color: #fff;
   font-size: 15px;
 }
@@ -676,6 +676,54 @@ h1,
   left: 0;
 }
 
+.navActive{
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(47 240 147 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.navActive:hover{
+  --tw-text-opacity: 1;
+  color: rgb(47 240 147 / var(--tw-text-opacity));
+}
+
+:is(.dark .navActive){
+  --tw-text-opacity: 1;
+  color: rgb(47 240 147 / var(--tw-text-opacity));
+}
+
+:is(.dark .navActive:hover){
+  --tw-text-opacity: 1;
+  color: rgb(47 240 147 / var(--tw-text-opacity));
+}
+
+.navDefault{
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(145 146 149 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.navDefault:hover{
+  --tw-text-opacity: 1;
+  color: rgb(41 40 45 / var(--tw-text-opacity));
+}
+
+:is(.dark .navDefault){
+  --tw-text-opacity: 1;
+  color: rgb(145 146 149 / var(--tw-text-opacity));
+}
+
+:is(.dark .navDefault:hover){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .visible{
   visibility: visible;
 }
@@ -702,10 +750,6 @@ h1,
 
 .bottom-0{
   bottom: 0px;
-}
-
-.bottom-\[30px\]{
-  bottom: 30px;
 }
 
 .left-0{
@@ -782,6 +826,10 @@ h1,
   margin-top: 30px;
 }
 
+.mt-\[40px\]{
+  margin-top: 40px;
+}
+
 .mt-\[5px\]{
   margin-top: 5px;
 }
@@ -830,8 +878,12 @@ h1,
   height: 185px;
 }
 
-.h-screen{
-  height: 100vh;
+.h-\[30px\]{
+  height: 30px;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-\[100px\]{
@@ -846,16 +898,16 @@ h1,
   width: 300px;
 }
 
+.w-\[30px\]{
+  width: 30px;
+}
+
 .w-full{
   width: 100%;
 }
 
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.cursor-pointer{
-  cursor: pointer;
 }
 
 .resize{
@@ -890,6 +942,10 @@ h1,
   gap: 1rem;
 }
 
+.gap-\[18px\]{
+  gap: 18px;
+}
+
 .gap-\[20px\]{
   gap: 20px;
 }
@@ -900,6 +956,10 @@ h1,
 
 .overflow-hidden{
   overflow: hidden;
+}
+
+.overflow-y-scroll{
+  overflow-y: scroll;
 }
 
 .rounded-\[10px\]{
@@ -1036,9 +1096,8 @@ h1,
   padding-bottom: 40px;
 }
 
-.py-\[8px\]{
-  padding-top: 8px;
-  padding-bottom: 8px;
+.pb-\[20px\]{
+  padding-bottom: 20px;
 }
 
 .pb-\[40px\]{
@@ -1269,6 +1328,58 @@ h1,
   }
 }
 
+.progress-wrap {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  box-shadow: inset 0 0 0 2px rgba(95, 58, 252, 0.2);
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 200ms linear;
+}
+
+.progress-wrap.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.progress-wrap::after {
+  position: absolute;
+  content: "\f342";
+  font-family: "Font Awesome 5 Pro";
+  text-align: center;
+  line-height: 46px;
+  font-size: 20px;
+  color: #2ff093;
+  left: 0;
+  top: 0;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+  transition: all 200ms linear;
+}
+
+.progress-wrap svg path {
+  fill: none;
+}
+
+.progress-wrap svg.progress-circle path {
+  stroke: #2ff093;
+  stroke-width: 4;
+  box-sizing: border-box;
+  transition: all 200ms linear;
+}
+
 .hover\:scale-\[110\%\]:hover{
   --tw-scale-x: 110%;
   --tw-scale-y: 110%;
@@ -1283,6 +1394,11 @@ h1,
 :is(.dark .dark\:border-btn){
   --tw-border-opacity: 1;
   border-color: rgb(41 40 45 / var(--tw-border-opacity));
+}
+
+:is(.dark .dark\:bg-body){
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 37 37 / var(--tw-bg-opacity));
 }
 
 :is(.dark .dark\:bg-btn){
@@ -1337,6 +1453,10 @@ h1,
 
   .md\:col-span-7{
     grid-column: span 7 / span 7;
+  }
+
+  .md\:mt-\[30px\]{
+    margin-top: 30px;
   }
 
   .md\:flex{

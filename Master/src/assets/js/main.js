@@ -73,10 +73,10 @@
   });
 
   // Dark For Mobile
-  var themeToggleDarkIcon = document.getElementById(
+  var themeToggleDarkIconMobile = document.getElementById(
     "theme-toggle-dark-icon-mobile"
   );
-  var themeToggleLightIcon = document.getElementById(
+  var themeToggleLightIconMobile = document.getElementById(
     "theme-toggle-light-icon-mobile"
   );
 
@@ -86,9 +86,9 @@
     (!("color-theme" in localStorage) &&
       window.matchMedia("(prefers-color-scheme: dark)").matches)
   ) {
-    themeToggleLightIcon.classList.remove("hidden");
+    themeToggleLightIconMobile.classList.remove("hidden");
   } else {
-    themeToggleDarkIcon.classList.remove("hidden");
+    themeToggleDarkIconMobile.classList.remove("hidden");
   }
 
   var themeToggleBtn = document.getElementById("theme-toggle-mobile");

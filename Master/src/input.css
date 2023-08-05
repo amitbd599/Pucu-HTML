@@ -238,3 +238,24 @@ Version      : 1.0.1
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
 }
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.sidebar {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.sidebar::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}

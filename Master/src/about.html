@@ -85,10 +85,10 @@
           </div>
           <menu class="hidden items-center md:flex">
             <ul class="flex gap-4">
-              <li class="navActive">
+              <li class="navDefault">
                 <a href="/"> Home </a>
               </li>
-              <li class="navDefault">
+              <li class="navActive">
                 <a href="/about"> About Us </a>
               </li>
               <li class="w-[100px] navDefault">
@@ -170,10 +170,10 @@
         <div class="my-[30px] border-t border-[#ddd] dark:border-btn"></div>
         <nav class="mt-[30px]">
           <ul class="grid gap-[18px]">
-            <li class="text-[18px] font-semibold inline-block navActive">
+            <li class="text-[18px] font-semibold inline-block navDefault">
               <a href="/"> Home </a>
             </li>
-            <li class="text-[18px] font-semibold inline-block navDefault">
+            <li class="text-[18px] font-semibold inline-block navActive">
               <a href="/about"> About Us </a>
             </li>
             <li class="text-[18px] font-semibold inline-block navDefault">
@@ -345,232 +345,275 @@
               data-wow-delay="0.3s"
             >
               <div class="main__body">
-                <section class="mt-[60px]">
-                  <div class="rounded-xl bg-white p-[30px] dark:bg-card">
-                    <div>
-                      <p class="text-[18px] text-text wow animated fadeIn">
-                        <span class="dark:text-theme">Hi!</span> There I’m
-                      </p>
-                      <h2
-                        class="mt-[20px] wow animated fadeIn text-[50px] leading-[60px] text-btn dark:text-white md:text-[62px] md:leading-[72px]"
-                      >
-                        Professional <span class="text-theme">Front-end</span>
-                        <br />
-                        Web Developer
-                      </h2>
-                      <p class="mt-[15px] text-text wow animated fadeIn">
-                        I am a Professional Front-end Web Developer and have
-                        been working in this field for more than 4 years. We are
-                        highly experts in converting PSD href HTML, PSD href
-                        Bootstrap, Figma href HTML, Sketch href HTML, and Xd
-                        href HTML ,CSS responsive design and pixel-perfect using
-                        bootstrap latest version, jQuery, JavaScript. I always
-                        take care of code with SEO friendly.
-                      </p>
-                    </div>
-                  </div>
-
-                  <!-- {/* About US */} -->
-
-                  <div class="mt-[30px]">
-                    <div class="grid grid-cols-12 gap-[30px]">
-                      <div class="col-span-12 md:col-span-5">
-                        <div class="rounded-xl bg-white p-[30px] dark:bg-card">
-                          <img
-                            src="assets/images/logo.svg"
-                            alt=""
-                            class="mt-[10px] wow animated fadeIn"
-                          />
-                          <div class="mt-[20px]">
-                            <p
-                              class="text-[14px] text-text dark:text-white wow animated fadeIn"
-                            >
-                              More Specialized
-                            </p>
-                            <a href="/about">
-                              <h3
-                                class="mt-[5px] wow animated fadeIn inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
-                              >
-                                About Us
-                              </h3>
-                            </a>
+                <section class="home__component mt-[60px]">
+                  <!-- About Intro -->
+                  <div class="rounded-xl bg-white p-[40px] dark:bg-card">
+                    <div class="grid grid-cols-12 md:gap-[50px]">
+                      <div class="col-span-12 md:col-span-4">
+                        <div class="flex justify-center">
+                          <div
+                            class="relative flex justify-center wow animated fadeIn"
+                          >
+                            <img
+                              src="assets/images/show/ProfileImage.png"
+                              alt=""
+                            />
+                            <img
+                              src="assets/images/show/underline.svg"
+                              alt=""
+                              class="absolute bottom-[-30px]"
+                            />
+                            <img
+                              src="assets/images/icon/AlexJohan.svg"
+                              alt=""
+                              class="absolute bottom-[-10px]"
+                            />
                           </div>
                         </div>
-                        <div>
-                          <div
-                            class="mt-[30px] rounded-xl bg-white p-[30px] dark:bg-card"
+                      </div>
+                      <div class="col-span-12 md:col-span-8">
+                        <div class="mt-[60px] md:mt-0">
+                          <h1
+                            class="text-[42px] wow animated fadeIn leading-[52px] text-btn dark:text-white md:text-[62px] md:leading-[72px]"
                           >
-                            <div class="flex gap-[20px] wow animated fadeIn">
-                              <button
-                                class="boxShadow rounded-lg p-[20px] dark:bg-btn dark:shadow-none"
-                              >
-                                <img
-                                  src="assets/images/icon/figma.png"
-                                  alt=""
-                                />
-                              </button>
-                              <button
-                                class="boxShadow rounded-lg p-[20px] dark:bg-btn dark:shadow-none"
-                              >
-                                <img
-                                  src="assets/images/icon/react.png"
-                                  alt=""
-                                />
-                              </button>
-                              <button
-                                class="boxShadow rounded-lg p-[20px] dark:bg-btn dark:shadow-none"
-                              >
-                                <img src="assets/images/icon/php.png" alt="" />
-                              </button>
-                            </div>
-
-                            <div class="mt-[30px]">
-                              <p
-                                class="text-[14px] text-text dark:text-white wow animated fadeIn"
-                              >
-                                Specialization
-                              </p>
-                              <a href="/service">
-                                <h3
-                                  class="mt-[5px] wow animated fadeIn inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
-                                >
-                                  Services Offer
-                                </h3>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="mt-[30px] rounded-xl bg-white p-[30px] dark:bg-card"
-                        >
-                          <div
-                            class="grid grid-cols-12"
-                            data-wow-duration="1.5s"
-                            data-wow-delay="0.3s"
-                          >
-                            <div class="col-span-6">
+                            About Me<span class="text-theme">!</span>
+                          </h1>
+                          <p class="text-[14px] text-text wow animated fadeIn">
+                            Brought into the world in 1994, Stomach muscle type
+                            living in USA. We give on-screen plan to sites and
+                            applications, as well as front-end execution. We
+                            will keep on chasing after a large number of
+                            articulations and better code by seeking after our
+                            "likes".
+                          </p>
+                          <div class="mt-[25px] gap-[30px] md:flex">
+                            <div class="flex items-center gap-[20px]">
                               <h2
-                                class="text-[50px] font-semibold text-btn dark:text-theme wow animated fadeIn"
+                                class="text-[50px] text-theme wow animated fadeIn"
                               >
-                                <span class="counter">20</span>+
+                                <div class="w-[80px] wow">
+                                  <span class="counter">568</span>+
+                                </div>
                               </h2>
                               <p
-                                class="text-text dark:text-white wow animated fadeIn"
+                                class="text-[14px] leading-[24px] text-text wow animated fadeIn"
                               >
-                                Years of <br />
-                                Experience
-                              </p>
-                            </div>
-                            <div class="col-span-6">
-                              <h2
-                                class="text-[50px] font-semibold text-btn dark:text-theme wow animated fadeIn"
-                              >
-                                <span class="counter">780</span>+
-                              </h2>
-                              <p
-                                class="text-text dark:text-white wow animated fadeIn"
-                              >
-                                Project <br />
+                                Projects <br />
                                 Completed
+                              </p>
+                            </div>
+                            <div class="flex items-center gap-[20px]">
+                              <h2
+                                class="text-[50px] text-theme wow wow animated fadeIn"
+                              >
+                                <div class="w-[80px]">
+                                  <span class="counter">786</span>+
+                                </div>
+                              </h2>
+                              <p
+                                class="text-[14px] leading-[24px] text-text wow animated fadeIn"
+                              >
+                                Satisfied <br />
+                                Clients
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-span-12 md:col-span-7">
-                        <div class="rounded-xl bg-white p-[30px] dark:bg-card">
-                          <div class="flex justify-center gap-[20px]">
-                            <div class="overflow-hidden rounded-lg">
-                              <div>
-                                <img
-                                  src="assets/images/show/image-1.png"
-                                  alt=""
-                                  class="transition-all duration-300 hover:scale-[110%] wow animated fadeIn"
-                                />
-                              </div>
-                            </div>
-                            <div class="overflow-hidden rounded-lg">
-                              <div>
-                                <img
-                                  src="assets/images/show/image-2.png"
-                                  alt=""
-                                  class="transition-all duration-300 hover:scale-[110%] wow animated fadeIn"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                          <div class="mt-[30px]">
-                            <p
-                              class="text-[14px] text-text dark:text-white wow animated fadeIn"
-                            >
-                              Showcase View
-                            </p>
-                            <a href="/projects">
-                              <h3
-                                class="mt-[5px] wow animated fadeIn inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
-                              >
-                                Projects
-                              </h3>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="mt-[30px] grid grid-cols-12 gap-[30px]">
-                          <div
-                            class="col-span-6 rounded-xl bg-theme px-[30px] py-[25px]"
+                    </div>
+                  </div>
+
+                  <!-- EXPERIENCE & EDUCATION  -->
+                  <div class="mt-[30px] grid grid-cols-12 gap-[30px]">
+                    <div class="col-span-12 md:col-span-6">
+                      <div class="rounded-xl bg-white p-[30px] dark:bg-card">
+                        <div>
+                          <h2
+                            class="text-[24px] text-btn dark:text-white wow animated fadeIn"
                           >
-                            <p class="text-[14px] text-btn wow animated fadeIn">
-                              Visit Our Blog
-                            </p>
-                            <a href="/blog">
-                              <h3
-                                class="mt-[5px] wow animated fadeIn inline-block text-[26px] tracking-[6px] text-btn"
-                              >
-                                Blog
-                              </h3>
-                            </a>
-                          </div>
-                          <div
-                            class="hero-pattern col-span-6 rounded-xl bg-white px-[30px] py-[25px] dark:bg-card"
-                          >
-                            <p
-                              class="text-[14px] text-text dark:text-white wow animated fadeIn"
-                            >
-                              Let’s work
-                            </p>
-                            <a href="/contact">
-                              <h3
-                                class="mt-[5px] wow animated fadeIn inline-block text-[26px] tracking-[6px] text-btn dark:text-white"
-                              >
-                                Contact
-                              </h3>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="mt-[30px]">
-                          <div
-                            class="relative flex h-[185px] items-end rounded-xl bg-cover bg-local bg-center wow animated fadeIn bg-no-repeat px-[30px] py-[30px]"
-                            style="
-                              background-image: url('assets/images/show/image-4.png');
-                            "
-                          >
-                            <div>
+                            EXPERIENCE
+                          </h2>
+                          <div>
+                            <div class="mt-[20px] wow animated fadeIn">
+                              <p class="text-[14px] text-text">2010 - 2016</p>
                               <p
-                                class="text-[14px] text-white wow animated fadeIn"
+                                class="mt-[5px] text-[16px] font-semibold text-btn dark:text-white"
                               >
-                                What Client Says?
+                                Full Stack Developer
                               </p>
-                              <a href="/testimonial">
-                                <h3
-                                  class="mt-[5px] wow animated fadeIn text-[26px] tracking-[6px] text-white"
+                              <p class="text-[12px] text-text">
+                                Loadash Soft co Ltd
+                              </p>
+                            </div>
+                            <div class="mt-[20px] wow animated fadeIn">
+                              <p class="text-[14px] text-text">2016 - 2023</p>
+                              <p
+                                class="mt-[5px] text-[16px] font-semibold text-btn dark:text-white"
+                              >
+                                Next-js With Prisma
+                              </p>
+                              <p class="text-[12px] text-text">
+                                Go-Lang co Ltd
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-span-12 md:col-span-6">
+                      <div class="rounded-xl bg-white p-[30px] dark:bg-card">
+                        <div>
+                          <h2
+                            class="text-[24px] text-btn dark:text-white wow animated fadeIn"
+                          >
+                            EDUCATION
+                          </h2>
+                          <div>
+                            <div class="mt-[20px] wow animated fadeIn">
+                              <p class="text-[14px] text-text">2002 - 2006</p>
+                              <p
+                                class="mt-[5px] text-[16px] font-semibold text-btn dark:text-white"
+                              >
+                                BTech Software Engineering
+                              </p>
+                              <p class="text-[12px] text-text">
+                                Trinity Western University
+                              </p>
+                            </div>
+                            <div class="mt-[20px] wow animated fadeIn">
+                              <p class="text-[14px] text-text">2006 - 2010</p>
+                              <p
+                                class="mt-[5px] text-[16px] font-semibold text-btn dark:text-white"
+                              >
+                                PHD Software Engineering{" "}
+                              </p>
+                              <p class="text-[12px] text-text">
+                                Trinity Western University
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- My Advantages  -->
+                  <div class="mt-[30px]">
+                    <div class="rounded-xl bg-white p-[30px] dark:bg-card">
+                      <div>
+                        <h2
+                          class="text-[24px] text-btn dark:text-white wow animated fadeIn"
+                        >
+                          EXPERIENCE
+                        </h2>
+                        <div>
+                          <div class="mt-[30px]">
+                            <div class="grid gap-[25px]">
+                              <div class="w-full wow animated fadeIn">
+                                <div
+                                  class="mb-2 flex items-center justify-between gap-4 w-full"
                                 >
-                                  Testimonials
-                                </h3>
-                              </a>
-                              <img
-                                class="absolute right-[30px] top-[50px] z-10 wow animated fadeIn"
-                                src="assets/images/icon/shape.svg"
-                                alt=""
-                              />
+                                  <div
+                                    class="text-[16px] font-medium text-btn dark:text-white"
+                                    variant="p"
+                                  >
+                                    React JS
+                                  </div>
+                                  <h6 class="text-btn dark:text-white">90%</h6>
+                                </div>
+                                <div
+                                  class="border border-theme/20 bg-theme/10 py-[8px] px-1 flex items-center h-[12px] w-full overflow-hidden font-sans text-xs font-medium rounded-full"
+                                >
+                                  <div
+                                    class="h-[6px] justify-center overflow-hidden rounded-full bg-theme"
+                                    style="width: 90%"
+                                  ></div>
+                                </div>
+                              </div>
+                              <div class="w-full wow animated fadeIn">
+                                <div
+                                  class="mb-2 flex items-center justify-between gap-4 w-full"
+                                >
+                                  <div
+                                    class="text-[16px] font-medium text-btn dark:text-white"
+                                    variant="p"
+                                  >
+                                    Next JS
+                                  </div>
+                                  <h6 class="text-btn dark:text-white">80%</h6>
+                                </div>
+                                <div
+                                  class="border border-theme/20 bg-theme/10 py-[8px] px-1 flex items-center h-[12px] w-full overflow-hidden font-sans text-xs font-medium rounded-full"
+                                >
+                                  <div
+                                    class="h-[6px] justify-center overflow-hidden rounded-full bg-theme"
+                                    style="width: 80%"
+                                  ></div>
+                                </div>
+                              </div>
+                              <div class="w-full wow animated fadeIn">
+                                <div
+                                  class="mb-2 flex items-center justify-between gap-4 w-full"
+                                >
+                                  <div
+                                    class="text-[16px] font-medium text-btn dark:text-white"
+                                    variant="p"
+                                  >
+                                    Javascript
+                                  </div>
+                                  <h6 class="text-btn dark:text-white">70%</h6>
+                                </div>
+                                <div
+                                  class="border border-theme/20 bg-theme/10 py-[8px] px-1 flex items-center h-[12px] w-full overflow-hidden font-sans text-xs font-medium rounded-full"
+                                >
+                                  <div
+                                    class="h-[6px] justify-center overflow-hidden rounded-full bg-theme"
+                                    style="width: 70%"
+                                  ></div>
+                                </div>
+                              </div>
+                              <div class="w-full wow animated fadeIn">
+                                <div
+                                  class="mb-2 flex items-center justify-between gap-4 w-full"
+                                >
+                                  <div
+                                    class="text-[16px] font-medium text-btn dark:text-white"
+                                    variant="p"
+                                  >
+                                    Typescript
+                                  </div>
+                                  <h6 class="text-btn dark:text-white">60%</h6>
+                                </div>
+                                <div
+                                  class="border border-theme/20 bg-theme/10 py-[8px] px-1 flex items-center h-[12px] w-full overflow-hidden font-sans text-xs font-medium rounded-full"
+                                >
+                                  <div
+                                    class="h-[6px] justify-center overflow-hidden rounded-full bg-theme"
+                                    style="width: 60%"
+                                  ></div>
+                                </div>
+                              </div>
+                              <div class="w-full wow animated fadeIn">
+                                <div
+                                  class="mb-2 flex items-center justify-between gap-4 w-full"
+                                >
+                                  <div
+                                    class="text-[16px] font-medium text-btn dark:text-white"
+                                    variant="p"
+                                  >
+                                    Tailwind CSS
+                                  </div>
+                                  <h6 class="text-btn dark:text-white">90%</h6>
+                                </div>
+                                <div
+                                  class="border border-theme/20 bg-theme/10 py-[8px] px-1 flex items-center h-[12px] w-full overflow-hidden font-sans text-xs font-medium rounded-full"
+                                >
+                                  <div
+                                    class="h-[6px] justify-center overflow-hidden rounded-full bg-theme"
+                                    style="width: 90%"
+                                  ></div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>

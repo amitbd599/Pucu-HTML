@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Service || Pucu - HTML Portfolio Web Template</title>
+    <title>Contact || Pucu - HTML Portfolio Web Template</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -88,10 +88,10 @@
               <li class="navDefault">
                 <a href="/"> Home </a>
               </li>
-              <li class="navActive">
+              <li class="navDefault">
                 <a href="/about"> About Us </a>
               </li>
-              <li class="w-[100px] navDefault">
+              <li class="w-[100px] navActive">
                 <a href="/contact">
                   <span class="typeIntro"></span>
                 </a>
@@ -182,13 +182,13 @@
             <li class="text-[18px] font-semibold inline-block navDefault">
               <a href="/blog"> Blog </a>
             </li>
-            <li class="text-[18px] font-semibold inline-block navActive">
+            <li class="text-[18px] font-semibold inline-block navDefault">
               <a href="/service"> Services </a>
             </li>
             <li class="text-[18px] font-semibold inline-block navDefault">
               <a href="/testimonial"> Testimonial </a>
             </li>
-            <li class="text-[18px] font-semibold inline-block navDefault">
+            <li class="text-[18px] font-semibold inline-block navActive">
               <a href="/contact"> Contact </a>
             </li>
           </ul>
@@ -346,215 +346,95 @@
             >
               <div class="main__body">
                 <section class="mt-[60px]">
-                  <!-- Service Intro  -->
-                  <div
-                    class="rounded-xl bg-white px-[20px] py-[40px] dark:bg-card lg:p-[40px]"
-                  >
+                  <!-- contact Intro  -->
+                  <div class="rounded-xl bg-white p-[30px] dark:bg-card">
                     <div>
                       <h2
                         class="text-[42px] wow animated fadeIn leading-[52px] text-btn dark:text-white md:text-[62px] md:leading-[72px]"
                       >
-                        Our Best Service<span class="text-theme">!</span>
+                        Let’s Chat<span class="text-theme">!</span>
                       </h2>
                       <p class="text-[14px] text-text wow animated fadeIn">
-                        The imperative for integrated, expansive, and seamless
-                        digital experiences is fueling software product design
-                        and development across organizations at an unprecedented
-                        scale. These demands require capabilities to imagine,
-                        build, and run digital products and services for new and
-                        existing.
+                        Feel free to contact us through Twitter or Facebook if
+                        you prefer!
                       </p>
-                      <div class="mt-[60px]">
-                        <div class="grid grid-cols-12 md:gap-[30px]">
-                          <div
-                            class="col-span-12 mb-[40px] md:col-span-6 md:mb-0 wow animated fadeIn"
-                          >
-                            <div
-                              class="boxShadow rounded-xl bg-white p-[30px] dark:bg-btn dark:shadow-none"
-                            >
-                              <div>
-                                <img
-                                  src="assets/images/icon/website-codes.png"
-                                  alt=""
-                                  class="w-[60px]"
+                      <div class="mb-[30px] mt-[30px]">
+                        <div>
+                          <div>
+                            <div>
+                              <div
+                                class="grid w-full gap-[20px] md:flex wow animated fadeIn"
+                              >
+                                <div class="md:w-1/2">
+                                  <input
+                                    class="block w-full rounded-lg border bg-white px-[15px] py-[10px] text-btn focus:outline-none dark:border-none dark:bg-btn dark:text-white"
+                                    type="text"
+                                    placeholder="Enter Your Name"
+                                    id="name"
+                                    name="user_name"
+                                    required
+                                  />
+                                </div>
+                                <div class="md:w-1/2">
+                                  <input
+                                    class="block w-full rounded-lg border bg-white px-[15px] py-[10px] text-btn focus:outline-none dark:border-none dark:bg-btn dark:text-white"
+                                    id="email"
+                                    name="user_email"
+                                    type="email"
+                                    placeholder="Enter Your Email"
+                                    required
+                                  />
+                                </div>
+                              </div>
+                              <div class="mt-[20px] wow animated fadeIn">
+                                <input
+                                  class="block w-full rounded-lg border bg-white px-[15px] py-[10px] text-btn focus:outline-none dark:border-none dark:bg-btn dark:text-white"
+                                  type="text"
+                                  placeholder="Website Link:"
                                 />
                               </div>
-                              <div class="mt-[20px]">
-                                <h2
-                                  class="text-[24px] text-btn dark:text-white"
-                                >
-                                  Web Design & Development
-                                </h2>
-                                <ul class="mt-[20px] grid gap-[16px]">
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    React & Nextjs with Prisma
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Design & build a custom website
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Back-end web development
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Well-maintained consistency
-                                  </li>
-                                </ul>
+                              <div class="mt-[20px] wow animated fadeIn">
+                                <textarea
+                                  name="message"
+                                  id="massage"
+                                  placeholder="Enter Your Massage"
+                                  required
+                                  cols="30"
+                                  rows="6"
+                                  class="block w-full rounded-lg border bg-white px-[15px] py-[10px] text-btn focus:outline-none dark:border-none dark:bg-btn dark:text-white"
+                                ></textarea>
                               </div>
-                            </div>
-                          </div>
-                          <div
-                            class="col-span-12 mb-[40px] md:col-span-6 md:mb-0 wow animated fadeIn"
-                          >
-                            <div
-                              class="boxShadow rounded-xl bg-white p-[30px] dark:bg-btn dark:shadow-none"
-                            >
                               <div>
-                                <img
-                                  src="assets/images/icon/designer.png"
-                                  alt=""
-                                  class="w-[60px]"
-                                />
-                              </div>
-                              <div class="mt-[20px]">
-                                <h2
-                                  class="text-[24px] text-btn dark:text-white"
+                                <div
+                                  class="mb-6 mt-[20px] flex items-start wow animated fadeIn"
                                 >
-                                  UX Design Services
-                                </h2>
-                                <ul class="mt-[20px] grid gap-[16px]">
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    User flow charts, diagrams
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Content strategy & Wireframes
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Brand and design system development
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Design technology consulting
-                                  </li>
-                                </ul>
+                                  <div class="flex h-5 items-center">
+                                    <input
+                                      id="remember"
+                                      aria-describedby="remember"
+                                      type="checkbox"
+                                      class="h-4 w-4 rounded bg-btn"
+                                      required=""
+                                    />
+                                  </div>
+                                  <div class="ml-3 text-sm">
+                                    <label
+                                      for="remember"
+                                      class="font-medium text-text"
+                                    >
+                                      Save my name, email, and website in this
+                                      browser for the next time I comment.
+                                    </label>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-                          </div>
-                          <div
-                            class="col-span-12 mb-[40px] md:col-span-6 md:mb-0 wow animated fadeIn"
-                          >
-                            <div
-                              class="boxShadow rounded-xl bg-white p-[30px] dark:bg-btn dark:shadow-none"
-                            >
-                              <div>
-                                <img
-                                  src="assets/images/icon/application.png"
-                                  alt=""
-                                  class="w-[60px]"
-                                />
-                              </div>
-                              <div class="mt-[20px]">
-                                <h2
-                                  class="text-[24px] text-btn dark:text-white"
+                              <div class="mb-[30px] wow animated fadeIn">
+                                <button
+                                  class="rounded-full border-2 border-theme bg-theme px-[30px] py-[10px] font-medium text-btn transition-all duration-300 dark:hover:bg-transparent dark:hover:text-theme"
                                 >
-                                  Mobile Application Design
-                                </h2>
-                                <ul class="mt-[20px] grid gap-[16px]">
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Voting Application for Market Validation
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Poker Application for Agile Teams
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Storytelling Mobile App for Travelers
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Mobile and web app user interface
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="col-span-12 mb-[40px] md:col-span-6 md:mb-0 wow animated fadeIn"
-                          >
-                            <div
-                              class="boxShadow rounded-xl bg-white p-[30px] dark:bg-btn dark:shadow-none"
-                            >
-                              <div>
-                                <img
-                                  src="assets/images/icon/design-tool.png"
-                                  alt=""
-                                  class="w-[60px]"
-                                />
-                              </div>
-                              <div class="mt-[20px]">
-                                <h2
-                                  class="text-[24px] text-btn dark:text-white"
-                                >
-                                  Logo design
-                                </h2>
-                                <ul class="mt-[20px] grid gap-[16px]">
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Adobe Illustrator
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Vector tracing tools that convert
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Inkscape
-                                  </li>
-                                  <li class="flex items-start text-text">
-                                    <i
-                                      class="fa-solid fa-caret-right mr-[8px] mt-[4px]"
-                                    ></i>
-                                    Gravit Designer
-                                  </li>
-                                </ul>
+                                  Send Massage
+                                </button>
+                                <!-- <p class="mt-3 text-theme">success</p> -->
                               </div>
                             </div>
                           </div>
@@ -562,67 +442,62 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Button  -->
-                  <div class="mt-[30px]">
-                    <button
-                      class="rounded-full border-2 border-theme bg-theme px-[30px] py-[10px] font-medium text-btn transition-all duration-300 dark:hover:bg-transparent dark:hover:text-theme wow animated fadeIn"
-                    >
-                      Load More
-                    </button>
-                  </div>
-                  <!-- Counter section  -->
+
+                  <!-- Map section  -->
                   <div
-                    class="mt-[60px] grid grid-cols-12 gap-[20px] wow animated fadeIn"
+                    class="mt-[30px] rounded-xl bg-white p-[30px] dark:bg-card wow animated fadeIn"
                   >
-                    <div class="col-span-6 md:col-span-3">
-                      <div class="flex items-center gap-[20px]">
-                        <h2 class="text-[50px] text-theme">
-                          <span class="w-[80px]">
-                            <span class="counter wow">490</span>+
-                          </span>
-                        </h2>
-                        <p class="text-[14px] leading-[24px] text-text">
-                          Projects <br />
-                          Completed
+                    <div class="contact-map">
+                      <iframe
+                        title="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29487.110529660204!2d91.78233825630927!3d22.50835433721081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd66e0fc1fe75%3A0x1a5fa83776c97924!2sHathazari!5e0!3m2!1sen!2sbd!4v1689738975067!5m2!1sen!2sbd"
+                        height="470"
+                        width="100%"
+                      ></iframe>
+                    </div>
+                  </div>
+                  <!-- contact info  -->
+                  <div
+                    class="mt-[30px] rounded-xl bg-white p-[30px] dark:bg-card"
+                  >
+                    <h2
+                      class="text-[24px] text-btn dark:text-white wow animated fadeIn"
+                    >
+                      Request a quote for work
+                    </h2>
+                    <div
+                      class="mt-[20px] grid gap-[30px] xl:flex xl:gap-[60px]"
+                    >
+                      <div class="wow animated fadeIn">
+                        <p class="text-[14px] text-text">Call for help</p>
+                        <p
+                          class="mt-[6px] text-[16px] font-medium text-btn dark:text-white"
+                        >
+                          +12 123 456 78
+                        </p>
+                        <p
+                          class="mt-[2px] text-[16px] font-medium text-btn dark:text-white"
+                        >
+                          +88 123 000 88
                         </p>
                       </div>
-                    </div>
-                    <div class="col-span-6 md:col-span-3">
-                      <div class="flex items-center gap-[20px]">
-                        <h2 class="text-[50px] text-theme">
-                          <span class="w-[80px]">
-                            <span class="counter wow">170</span>+
-                          </span>
-                        </h2>
-                        <p class="text-[14px] leading-[24px] text-text">
-                          Satisfied <br />
-                          Clients
+                      <div class="wow animated fadeIn">
+                        <p class="text-[14px] text-text">Office address</p>
+                        <p
+                          class="mt-[6px] text-[16px] font-medium text-btn dark:text-white"
+                        >
+                          Aliquam officia dolor rerum
                         </p>
                       </div>
-                    </div>
-                    <div class="col-span-6 md:col-span-3">
-                      <div class="flex items-center gap-[20px]">
-                        <h2 class="text-[50px] text-theme">
-                          <span class="w-[80px]">
-                            <span class="counter wow">980</span>+
-                          </span>
-                        </h2>
-                        <p class="text-[14px] leading-[24px] text-text">
-                          Download <br />
-                          Projects
+                      <div class="wow animated fadeIn">
+                        <p class="text-[14px] text-text">Email address</p>
+                        <p
+                          class="mt-[6px] text-[16px] font-medium text-btn dark:text-white"
+                        >
+                          needhelp@yourdomain.com
                         </p>
-                      </div>
-                    </div>
-                    <div class="col-span-6 md:col-span-3">
-                      <div class="flex items-center gap-[20px]">
-                        <h2 class="text-[50px] text-theme">
-                          <span class="w-[80px]">
-                            <span class="counter wow">790</span>+
-                          </span>
-                        </h2>
-                        <p class="text-[14px] leading-[24px] text-text">
-                          Hour <br />
-                          Work Time
+                        <p class="mt-[2px] text-[16px] font-medium">
+                          info@company.com
                         </p>
                       </div>
                     </div>

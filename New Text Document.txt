@@ -1,3 +1,8 @@
+Pucu - Creative HTML Portfolio Web Template
+https://themesoft69.com/pucu
+
+Concept for creative agencies, Graphic designers, photographers or any kind of creative is now able to create a quick and easy portfolio to showcase their work.
+
 Unleash the power of modern web development with our cutting-edge "Modern Web Portfolio" template, meticulously crafted using the popular Tailwind CSS framework. This stunning web portfolio template is designed to elevate your personal or professional brand, impress potential clients, and showcase your talents in a visually captivating manner. This template is fully responsive and has dark/light mode. All documents and code have been efficient and well remarked on for simplicity to redo.
 
 Main Feature:

@@ -1,6 +1,6 @@
 /*
 Author       : themesoft69
-Template Name: Pucu - React Portfolio Template
+Template Name: Pucu - HTML Portfolio Template
 Version      : 1.0.1
 */
 
@@ -261,4 +261,128 @@ Version      : 1.0.1
   /* WebKit */
   width: 0;
   height: 0;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  margin-right: 40px;
+  position: relative;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-menu ul li {
+    margin-right: 22px;
+  }
+}
+.main-menu ul li:last-child {
+  margin-right: 0;
+}
+.main-menu ul li.has-dropdown > a {
+  padding-right: 14px;
+}
+.main-menu ul li.has-dropdown > a::after {
+  position: absolute;
+  content: "\f107";
+  right: -4px;
+  top: 42px;
+  font-size: 14px;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Font Awesome 6 Pro";
+}
+.main-menu ul li a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 40px 0;
+  display: inline-block;
+  transition: 0.3s;
+}
+.main-menu ul li .active {
+  color: #2ff093;
+}
+.main-menu ul li:hover > a {
+  color: #2ff093;
+}
+.main-menu ul li:hover > a::after {
+  color: #2ff093;
+}
+.main-menu ul li:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+.main-menu ul li .sub-menu {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  min-width: 220px;
+  background-color: #252525;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+  padding: 20px 0px 15px;
+  transition: 0.3s;
+
+  border-top: 4px solid #2ff093;
+}
+.main-menu ul li .sub-menu li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.main-menu ul li .sub-menu li a {
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  padding: 10px 25px;
+  transition: 0.3s;
+  color: #fff;
+  text-transform: capitalize;
+}
+.main-menu ul li .sub-menu li .active {
+  color: #2ff093;
+}
+.main-menu ul li .sub-menu li:hover > a {
+  color: #2ff093;
+}
+.main-menu ul li .sub-menu li > .sub-menu {
+  left: 120%;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.main-menu ul li .sub-menu li:hover > .sub-menu {
+  left: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-padding {
+  padding-left: 40px;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.mean-nav > ul {
+  display: block !important;
+}
+.meanmenu-reveal {
+  display: none !important;
+}
+
+.mean-nav {
+  background: none;
+  margin-top: 0;
+}
+
+.mean-container .mean-nav ul li:first-child a {
+  border: none;
 }
